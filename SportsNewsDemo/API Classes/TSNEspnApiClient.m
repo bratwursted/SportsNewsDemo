@@ -28,7 +28,7 @@
 
 - (NSString *)apiKey
 {
-    return @"46n3hcs7ksm57mxhm5yqtv8a"; 
+    return @""; // add your API key here
 }
 
 @end
