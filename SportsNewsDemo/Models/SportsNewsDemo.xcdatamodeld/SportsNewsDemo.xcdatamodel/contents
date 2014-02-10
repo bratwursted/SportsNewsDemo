@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="LeagueInfo" representedClassName="LeagueInfo" syncable="YES">
+        <attribute name="abbreviation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sport" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SportInfo" inverseName="leagues" inverseEntity="SportInfo" syncable="YES"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TeamInfo" inverseName="league" inverseEntity="TeamInfo" syncable="YES"/>
+    </entity>
+    <entity name="SportInfo" representedClassName="SportInfo" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="leagues" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LeagueInfo" inverseName="sport" inverseEntity="LeagueInfo" syncable="YES"/>
+        <relationship name="teams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TeamInfo" inverseName="sport" inverseEntity="TeamInfo" syncable="YES"/>
+    </entity>
+    <entity name="TeamInfo" representedClassName="TeamInfo" syncable="YES">
+        <attribute name="abbreviation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="league" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LeagueInfo" inverseName="teams" inverseEntity="LeagueInfo" syncable="YES"/>
+        <relationship name="sport" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SportInfo" inverseName="teams" inverseEntity="SportInfo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TeamInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="LeagueInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="SportInfo" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

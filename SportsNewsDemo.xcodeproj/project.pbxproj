@@ -19,6 +19,50 @@
 		D873F75518A45CAC0034E178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D873F73D18A45CAC0034E178 /* UIKit.framework */; };
 		D873F75D18A45CAC0034E178 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D873F75B18A45CAC0034E178 /* InfoPlist.strings */; };
 		D873F75F18A45CAC0034E178 /* SportsNewsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F75E18A45CAC0034E178 /* SportsNewsDemoTests.m */; };
+		D873F76F18A45E200034E178 /* TSNTopNewsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F76E18A45E200034E178 /* TSNTopNewsMasterViewController.m */; };
+		D873F77218A45E360034E178 /* TSNMyTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F77118A45E360034E178 /* TSNMyTeamsViewController.m */; };
+		D873F79A18A488960034E178 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F77818A488960034E178 /* AFHTTPRequestOperation.m */; };
+		D873F79B18A488960034E178 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F77A18A488960034E178 /* AFHTTPRequestOperationManager.m */; };
+		D873F79C18A488960034E178 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F77C18A488960034E178 /* AFHTTPSessionManager.m */; };
+		D873F79D18A488960034E178 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F77F18A488960034E178 /* AFNetworkReachabilityManager.m */; };
+		D873F79E18A488960034E178 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78118A488960034E178 /* AFSecurityPolicy.m */; };
+		D873F79F18A488960034E178 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78318A488960034E178 /* AFURLConnectionOperation.m */; };
+		D873F7A018A488960034E178 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78518A488960034E178 /* AFURLRequestSerialization.m */; };
+		D873F7A118A488960034E178 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78718A488960034E178 /* AFURLResponseSerialization.m */; };
+		D873F7A218A488960034E178 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78918A488960034E178 /* AFURLSessionManager.m */; };
+		D873F7A318A488960034E178 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78C18A488960034E178 /* AFNetworkActivityIndicatorManager.m */; };
+		D873F7A418A488960034E178 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F78E18A488960034E178 /* UIActivityIndicatorView+AFNetworking.m */; };
+		D873F7A518A488960034E178 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F79018A488960034E178 /* UIAlertView+AFNetworking.m */; };
+		D873F7A618A488960034E178 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F79218A488960034E178 /* UIButton+AFNetworking.m */; };
+		D873F7A718A488960034E178 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F79418A488960034E178 /* UIImageView+AFNetworking.m */; };
+		D873F7A818A488960034E178 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F79718A488960034E178 /* UIProgressView+AFNetworking.m */; };
+		D873F7A918A488960034E178 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F79918A488960034E178 /* UIWebView+AFNetworking.m */; };
+		D873F7AD18A489710034E178 /* TSNEspnApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7AC18A489710034E178 /* TSNEspnApiClient.m */; };
+		D873F7B318A48C7E0034E178 /* TSNNewsItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7B218A48C7E0034E178 /* TSNNewsItemProvider.m */; };
+		D873F7B618A498E00034E178 /* TSNNewsItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7B518A498E00034E178 /* TSNNewsItemTableViewCell.m */; };
+		D873F7B918A498FD0034E178 /* TSNNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7B818A498FD0034E178 /* TSNNewsItem.m */; };
+		D873F7BC18A4A5000034E178 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7BB18A4A5000034E178 /* UIImageExtras.m */; };
+		D873F7BF18A4A6550034E178 /* TSNNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7BE18A4A6550034E178 /* TSNNewsDetailViewController.m */; };
+		D873F7C818A4A9350034E178 /* TSNNewsDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7C718A4A9350034E178 /* TSNNewsDetailView.m */; };
+		D873F7CB18A4C9FF0034E178 /* TSNArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7CA18A4C9FF0034E178 /* TSNArticleViewController.m */; };
+		D873F7CE18A56C860034E178 /* SportsNewsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D873F7CC18A56C860034E178 /* SportsNewsDemo.xcdatamodeld */; };
+		D873F7D118A56F150034E178 /* SportInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7D018A56F150034E178 /* SportInfo.m */; };
+		D873F7D718A56F150034E178 /* LeagueInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7D618A56F150034E178 /* LeagueInfo.m */; };
+		D873F7D918A56FD30034E178 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D873F7D818A56FD30034E178 /* CoreData.framework */; };
+		D873F7DC18A579BF0034E178 /* TSNTeamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7DB18A579BF0034E178 /* TSNTeamTableViewCell.m */; };
+		D873F7DF18A57EA00034E178 /* TSNSportsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7DE18A57EA00034E178 /* TSNSportsMasterViewController.m */; };
+		D873F7E218A57FB90034E178 /* TSNDataItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7E118A57FB90034E178 /* TSNDataItemProvider.m */; };
+		D873F7E518A593D30034E178 /* TSNSportsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7E418A593D30034E178 /* TSNSportsItem.m */; };
+		D873F7E818A5A3400034E178 /* TSNSportsLeaguesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7E718A5A3400034E178 /* TSNSportsLeaguesViewController.m */; };
+		D873F7EB18A5A45B0034E178 /* TSNLeagueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7EA18A5A45B0034E178 /* TSNLeagueItem.m */; };
+		D873F7EE18A5ACB60034E178 /* TSNTeamPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7ED18A5ACB60034E178 /* TSNTeamPickerViewController.m */; };
+		D873F7F118A5AE050034E178 /* TSNTeamItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7F018A5AE050034E178 /* TSNTeamItem.m */; };
+		D873F7F418A818AD0034E178 /* TeamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7F318A818AD0034E178 /* TeamInfo.m */; };
+		D873F7F718A818FD0034E178 /* TeamInfo+Picker.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7F618A818FD0034E178 /* TeamInfo+Picker.m */; };
+		D873F7FA18A81A620034E178 /* LeagueInfo+Picker.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7F918A81A620034E178 /* LeagueInfo+Picker.m */; };
+		D873F7FD18A81A730034E178 /* SportInfo+Picker.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7FC18A81A730034E178 /* SportInfo+Picker.m */; };
+		D873F80018A84D1B0034E178 /* TSNTeamNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D873F7FF18A84D1B0034E178 /* TSNTeamNewsViewController.m */; };
+		D873F80218A889990034E178 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D873F80118A889990034E178 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +92,93 @@
 		D873F75A18A45CAC0034E178 /* SportsNewsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportsNewsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D873F75C18A45CAC0034E178 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D873F75E18A45CAC0034E178 /* SportsNewsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsNewsDemoTests.m; sourceTree = "<group>"; };
+		D873F76D18A45E200034E178 /* TSNTopNewsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNTopNewsMasterViewController.h; sourceTree = "<group>"; };
+		D873F76E18A45E200034E178 /* TSNTopNewsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNTopNewsMasterViewController.m; sourceTree = "<group>"; };
+		D873F77018A45E360034E178 /* TSNMyTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNMyTeamsViewController.h; sourceTree = "<group>"; };
+		D873F77118A45E360034E178 /* TSNMyTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNMyTeamsViewController.m; sourceTree = "<group>"; };
+		D873F77718A488960034E178 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		D873F77818A488960034E178 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		D873F77918A488960034E178 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		D873F77A18A488960034E178 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		D873F77B18A488960034E178 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D873F77C18A488960034E178 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D873F77D18A488960034E178 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D873F77E18A488960034E178 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D873F77F18A488960034E178 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D873F78018A488960034E178 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D873F78118A488960034E178 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D873F78218A488960034E178 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		D873F78318A488960034E178 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		D873F78418A488960034E178 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D873F78518A488960034E178 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		D873F78618A488960034E178 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D873F78718A488960034E178 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		D873F78818A488960034E178 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		D873F78918A488960034E178 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D873F78B18A488960034E178 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		D873F78C18A488960034E178 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		D873F78D18A488960034E178 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F78E18A488960034E178 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		D873F78F18A488960034E178 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F79018A488960034E178 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		D873F79118A488960034E178 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F79218A488960034E178 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		D873F79318A488960034E178 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F79418A488960034E178 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		D873F79518A488960034E178 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F79618A488960034E178 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F79718A488960034E178 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		D873F79818A488960034E178 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		D873F79918A488960034E178 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		D873F7AB18A489710034E178 /* TSNEspnApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNEspnApiClient.h; sourceTree = "<group>"; };
+		D873F7AC18A489710034E178 /* TSNEspnApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNEspnApiClient.m; sourceTree = "<group>"; };
+		D873F7B118A48C7E0034E178 /* TSNNewsItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNNewsItemProvider.h; sourceTree = "<group>"; };
+		D873F7B218A48C7E0034E178 /* TSNNewsItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNNewsItemProvider.m; sourceTree = "<group>"; };
+		D873F7B418A498E00034E178 /* TSNNewsItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNNewsItemTableViewCell.h; sourceTree = "<group>"; };
+		D873F7B518A498E00034E178 /* TSNNewsItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNNewsItemTableViewCell.m; sourceTree = "<group>"; };
+		D873F7B718A498FD0034E178 /* TSNNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNNewsItem.h; sourceTree = "<group>"; };
+		D873F7B818A498FD0034E178 /* TSNNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNNewsItem.m; sourceTree = "<group>"; };
+		D873F7BA18A4A5000034E178 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		D873F7BB18A4A5000034E178 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
+		D873F7BD18A4A6550034E178 /* TSNNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNNewsDetailViewController.h; sourceTree = "<group>"; };
+		D873F7BE18A4A6550034E178 /* TSNNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNNewsDetailViewController.m; sourceTree = "<group>"; };
+		D873F7C618A4A9350034E178 /* TSNNewsDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNNewsDetailView.h; sourceTree = "<group>"; };
+		D873F7C718A4A9350034E178 /* TSNNewsDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNNewsDetailView.m; sourceTree = "<group>"; };
+		D873F7C918A4C9FF0034E178 /* TSNArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNArticleViewController.h; sourceTree = "<group>"; };
+		D873F7CA18A4C9FF0034E178 /* TSNArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNArticleViewController.m; sourceTree = "<group>"; };
+		D873F7CD18A56C860034E178 /* SportsNewsDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsNewsDemo.xcdatamodel; sourceTree = "<group>"; };
+		D873F7CF18A56F150034E178 /* SportInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportInfo.h; sourceTree = "<group>"; };
+		D873F7D018A56F150034E178 /* SportInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportInfo.m; sourceTree = "<group>"; };
+		D873F7D518A56F150034E178 /* LeagueInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueInfo.h; sourceTree = "<group>"; };
+		D873F7D618A56F150034E178 /* LeagueInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueInfo.m; sourceTree = "<group>"; };
+		D873F7D818A56FD30034E178 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D873F7DA18A579BF0034E178 /* TSNTeamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNTeamTableViewCell.h; sourceTree = "<group>"; };
+		D873F7DB18A579BF0034E178 /* TSNTeamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNTeamTableViewCell.m; sourceTree = "<group>"; };
+		D873F7DD18A57EA00034E178 /* TSNSportsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNSportsMasterViewController.h; sourceTree = "<group>"; };
+		D873F7DE18A57EA00034E178 /* TSNSportsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNSportsMasterViewController.m; sourceTree = "<group>"; };
+		D873F7E018A57FB90034E178 /* TSNDataItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNDataItemProvider.h; sourceTree = "<group>"; };
+		D873F7E118A57FB90034E178 /* TSNDataItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNDataItemProvider.m; sourceTree = "<group>"; };
+		D873F7E318A593D30034E178 /* TSNSportsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNSportsItem.h; sourceTree = "<group>"; };
+		D873F7E418A593D30034E178 /* TSNSportsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNSportsItem.m; sourceTree = "<group>"; };
+		D873F7E618A5A33F0034E178 /* TSNSportsLeaguesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNSportsLeaguesViewController.h; sourceTree = "<group>"; };
+		D873F7E718A5A3400034E178 /* TSNSportsLeaguesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNSportsLeaguesViewController.m; sourceTree = "<group>"; };
+		D873F7E918A5A45B0034E178 /* TSNLeagueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNLeagueItem.h; sourceTree = "<group>"; };
+		D873F7EA18A5A45B0034E178 /* TSNLeagueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNLeagueItem.m; sourceTree = "<group>"; };
+		D873F7EC18A5ACB60034E178 /* TSNTeamPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNTeamPickerViewController.h; sourceTree = "<group>"; };
+		D873F7ED18A5ACB60034E178 /* TSNTeamPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNTeamPickerViewController.m; sourceTree = "<group>"; };
+		D873F7EF18A5AE050034E178 /* TSNTeamItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNTeamItem.h; sourceTree = "<group>"; };
+		D873F7F018A5AE050034E178 /* TSNTeamItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNTeamItem.m; sourceTree = "<group>"; };
+		D873F7F218A818AD0034E178 /* TeamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamInfo.h; sourceTree = "<group>"; };
+		D873F7F318A818AD0034E178 /* TeamInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamInfo.m; sourceTree = "<group>"; };
+		D873F7F518A818FD0034E178 /* TeamInfo+Picker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TeamInfo+Picker.h"; sourceTree = "<group>"; };
+		D873F7F618A818FD0034E178 /* TeamInfo+Picker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TeamInfo+Picker.m"; sourceTree = "<group>"; };
+		D873F7F818A81A620034E178 /* LeagueInfo+Picker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeagueInfo+Picker.h"; sourceTree = "<group>"; };
+		D873F7F918A81A620034E178 /* LeagueInfo+Picker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LeagueInfo+Picker.m"; sourceTree = "<group>"; };
+		D873F7FB18A81A730034E178 /* SportInfo+Picker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SportInfo+Picker.h"; sourceTree = "<group>"; };
+		D873F7FC18A81A730034E178 /* SportInfo+Picker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SportInfo+Picker.m"; sourceTree = "<group>"; };
+		D873F7FE18A84D1B0034E178 /* TSNTeamNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNTeamNewsViewController.h; sourceTree = "<group>"; };
+		D873F7FF18A84D1B0034E178 /* TSNTeamNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNTeamNewsViewController.m; sourceTree = "<group>"; };
+		D873F80118A889990034E178 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D873F7D918A56FD30034E178 /* CoreData.framework in Frameworks */,
 				D873F73C18A45CAC0034E178 /* CoreGraphics.framework in Frameworks */,
 				D873F73E18A45CAC0034E178 /* UIKit.framework in Frameworks */,
 				D873F73A18A45CAC0034E178 /* Foundation.framework in Frameworks */,
@@ -96,6 +228,7 @@
 		D873F73818A45CAC0034E178 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D873F7D818A56FD30034E178 /* CoreData.framework */,
 				D873F73918A45CAC0034E178 /* Foundation.framework */,
 				D873F73B18A45CAC0034E178 /* CoreGraphics.framework */,
 				D873F73D18A45CAC0034E178 /* UIKit.framework */,
@@ -109,6 +242,13 @@
 			children = (
 				D873F74818A45CAC0034E178 /* TSNAppDelegate.h */,
 				D873F74918A45CAC0034E178 /* TSNAppDelegate.m */,
+				D873F7AA18A4895F0034E178 /* API Classes */,
+				D873F76918A45D450034E178 /* Controllers */,
+				D873F76A18A45D4D0034E178 /* Helper Classes */,
+				D873F76B18A45D570034E178 /* Models */,
+				D873F76C18A45D5F0034E178 /* Views */,
+				D873F77618A488960034E178 /* AFNetworking */,
+				D873F78A18A488960034E178 /* UIKit+AFNetworking */,
 				D873F74B18A45CAC0034E178 /* Images.xcassets */,
 				D873F74018A45CAC0034E178 /* Supporting Files */,
 			);
@@ -118,6 +258,7 @@
 		D873F74018A45CAC0034E178 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D873F80118A889990034E178 /* README.md */,
 				D873F74118A45CAC0034E178 /* SportsNewsDemo-Info.plist */,
 				D873F74218A45CAC0034E178 /* InfoPlist.strings */,
 				D873F74518A45CAC0034E178 /* main.m */,
@@ -142,6 +283,140 @@
 				D873F75B18A45CAC0034E178 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D873F76918A45D450034E178 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D873F76D18A45E200034E178 /* TSNTopNewsMasterViewController.h */,
+				D873F76E18A45E200034E178 /* TSNTopNewsMasterViewController.m */,
+				D873F7BD18A4A6550034E178 /* TSNNewsDetailViewController.h */,
+				D873F7BE18A4A6550034E178 /* TSNNewsDetailViewController.m */,
+				D873F7C918A4C9FF0034E178 /* TSNArticleViewController.h */,
+				D873F7CA18A4C9FF0034E178 /* TSNArticleViewController.m */,
+				D873F77018A45E360034E178 /* TSNMyTeamsViewController.h */,
+				D873F77118A45E360034E178 /* TSNMyTeamsViewController.m */,
+				D873F7FE18A84D1B0034E178 /* TSNTeamNewsViewController.h */,
+				D873F7FF18A84D1B0034E178 /* TSNTeamNewsViewController.m */,
+				D873F7DD18A57EA00034E178 /* TSNSportsMasterViewController.h */,
+				D873F7DE18A57EA00034E178 /* TSNSportsMasterViewController.m */,
+				D873F7E618A5A33F0034E178 /* TSNSportsLeaguesViewController.h */,
+				D873F7E718A5A3400034E178 /* TSNSportsLeaguesViewController.m */,
+				D873F7EC18A5ACB60034E178 /* TSNTeamPickerViewController.h */,
+				D873F7ED18A5ACB60034E178 /* TSNTeamPickerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D873F76A18A45D4D0034E178 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D873F7BA18A4A5000034E178 /* UIImageExtras.h */,
+				D873F7BB18A4A5000034E178 /* UIImageExtras.m */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		D873F76B18A45D570034E178 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D873F7B718A498FD0034E178 /* TSNNewsItem.h */,
+				D873F7B818A498FD0034E178 /* TSNNewsItem.m */,
+				D873F7E318A593D30034E178 /* TSNSportsItem.h */,
+				D873F7E418A593D30034E178 /* TSNSportsItem.m */,
+				D873F7E918A5A45B0034E178 /* TSNLeagueItem.h */,
+				D873F7EA18A5A45B0034E178 /* TSNLeagueItem.m */,
+				D873F7EF18A5AE050034E178 /* TSNTeamItem.h */,
+				D873F7F018A5AE050034E178 /* TSNTeamItem.m */,
+				D873F7CC18A56C860034E178 /* SportsNewsDemo.xcdatamodeld */,
+				D873F7F218A818AD0034E178 /* TeamInfo.h */,
+				D873F7F318A818AD0034E178 /* TeamInfo.m */,
+				D873F7F518A818FD0034E178 /* TeamInfo+Picker.h */,
+				D873F7F618A818FD0034E178 /* TeamInfo+Picker.m */,
+				D873F7D518A56F150034E178 /* LeagueInfo.h */,
+				D873F7D618A56F150034E178 /* LeagueInfo.m */,
+				D873F7F818A81A620034E178 /* LeagueInfo+Picker.h */,
+				D873F7F918A81A620034E178 /* LeagueInfo+Picker.m */,
+				D873F7CF18A56F150034E178 /* SportInfo.h */,
+				D873F7D018A56F150034E178 /* SportInfo.m */,
+				D873F7FB18A81A730034E178 /* SportInfo+Picker.h */,
+				D873F7FC18A81A730034E178 /* SportInfo+Picker.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D873F76C18A45D5F0034E178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D873F7B418A498E00034E178 /* TSNNewsItemTableViewCell.h */,
+				D873F7B518A498E00034E178 /* TSNNewsItemTableViewCell.m */,
+				D873F7C618A4A9350034E178 /* TSNNewsDetailView.h */,
+				D873F7C718A4A9350034E178 /* TSNNewsDetailView.m */,
+				D873F7DA18A579BF0034E178 /* TSNTeamTableViewCell.h */,
+				D873F7DB18A579BF0034E178 /* TSNTeamTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D873F77618A488960034E178 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D873F77718A488960034E178 /* AFHTTPRequestOperation.h */,
+				D873F77818A488960034E178 /* AFHTTPRequestOperation.m */,
+				D873F77918A488960034E178 /* AFHTTPRequestOperationManager.h */,
+				D873F77A18A488960034E178 /* AFHTTPRequestOperationManager.m */,
+				D873F77B18A488960034E178 /* AFHTTPSessionManager.h */,
+				D873F77C18A488960034E178 /* AFHTTPSessionManager.m */,
+				D873F77D18A488960034E178 /* AFNetworking.h */,
+				D873F77E18A488960034E178 /* AFNetworkReachabilityManager.h */,
+				D873F77F18A488960034E178 /* AFNetworkReachabilityManager.m */,
+				D873F78018A488960034E178 /* AFSecurityPolicy.h */,
+				D873F78118A488960034E178 /* AFSecurityPolicy.m */,
+				D873F78218A488960034E178 /* AFURLConnectionOperation.h */,
+				D873F78318A488960034E178 /* AFURLConnectionOperation.m */,
+				D873F78418A488960034E178 /* AFURLRequestSerialization.h */,
+				D873F78518A488960034E178 /* AFURLRequestSerialization.m */,
+				D873F78618A488960034E178 /* AFURLResponseSerialization.h */,
+				D873F78718A488960034E178 /* AFURLResponseSerialization.m */,
+				D873F78818A488960034E178 /* AFURLSessionManager.h */,
+				D873F78918A488960034E178 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D873F78A18A488960034E178 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D873F78B18A488960034E178 /* AFNetworkActivityIndicatorManager.h */,
+				D873F78C18A488960034E178 /* AFNetworkActivityIndicatorManager.m */,
+				D873F78D18A488960034E178 /* UIActivityIndicatorView+AFNetworking.h */,
+				D873F78E18A488960034E178 /* UIActivityIndicatorView+AFNetworking.m */,
+				D873F78F18A488960034E178 /* UIAlertView+AFNetworking.h */,
+				D873F79018A488960034E178 /* UIAlertView+AFNetworking.m */,
+				D873F79118A488960034E178 /* UIButton+AFNetworking.h */,
+				D873F79218A488960034E178 /* UIButton+AFNetworking.m */,
+				D873F79318A488960034E178 /* UIImageView+AFNetworking.h */,
+				D873F79418A488960034E178 /* UIImageView+AFNetworking.m */,
+				D873F79518A488960034E178 /* UIKit+AFNetworking.h */,
+				D873F79618A488960034E178 /* UIProgressView+AFNetworking.h */,
+				D873F79718A488960034E178 /* UIProgressView+AFNetworking.m */,
+				D873F79818A488960034E178 /* UIWebView+AFNetworking.h */,
+				D873F79918A488960034E178 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		D873F7AA18A4895F0034E178 /* API Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D873F7AB18A489710034E178 /* TSNEspnApiClient.h */,
+				D873F7AC18A489710034E178 /* TSNEspnApiClient.m */,
+				D873F7B118A48C7E0034E178 /* TSNNewsItemProvider.h */,
+				D873F7B218A48C7E0034E178 /* TSNNewsItemProvider.m */,
+				D873F7E018A57FB90034E178 /* TSNDataItemProvider.h */,
+				D873F7E118A57FB90034E178 /* TSNDataItemProvider.m */,
+			);
+			path = "API Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +495,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D873F80218A889990034E178 /* README.md in Resources */,
 				D873F74418A45CAC0034E178 /* InfoPlist.strings in Resources */,
 				D873F74C18A45CAC0034E178 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +516,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D873F7BF18A4A6550034E178 /* TSNNewsDetailViewController.m in Sources */,
+				D873F7A818A488960034E178 /* UIProgressView+AFNetworking.m in Sources */,
+				D873F7A618A488960034E178 /* UIButton+AFNetworking.m in Sources */,
+				D873F7F118A5AE050034E178 /* TSNTeamItem.m in Sources */,
+				D873F7A518A488960034E178 /* UIAlertView+AFNetworking.m in Sources */,
+				D873F76F18A45E200034E178 /* TSNTopNewsMasterViewController.m in Sources */,
+				D873F7EE18A5ACB60034E178 /* TSNTeamPickerViewController.m in Sources */,
+				D873F7D718A56F150034E178 /* LeagueInfo.m in Sources */,
+				D873F7F418A818AD0034E178 /* TeamInfo.m in Sources */,
+				D873F7DF18A57EA00034E178 /* TSNSportsMasterViewController.m in Sources */,
+				D873F80018A84D1B0034E178 /* TSNTeamNewsViewController.m in Sources */,
+				D873F79E18A488960034E178 /* AFSecurityPolicy.m in Sources */,
+				D873F77218A45E360034E178 /* TSNMyTeamsViewController.m in Sources */,
+				D873F7FD18A81A730034E178 /* SportInfo+Picker.m in Sources */,
+				D873F79B18A488960034E178 /* AFHTTPRequestOperationManager.m in Sources */,
+				D873F7BC18A4A5000034E178 /* UIImageExtras.m in Sources */,
+				D873F79F18A488960034E178 /* AFURLConnectionOperation.m in Sources */,
+				D873F7B318A48C7E0034E178 /* TSNNewsItemProvider.m in Sources */,
+				D873F7CE18A56C860034E178 /* SportsNewsDemo.xcdatamodeld in Sources */,
+				D873F7E818A5A3400034E178 /* TSNSportsLeaguesViewController.m in Sources */,
+				D873F7A718A488960034E178 /* UIImageView+AFNetworking.m in Sources */,
+				D873F79A18A488960034E178 /* AFHTTPRequestOperation.m in Sources */,
+				D873F7A418A488960034E178 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				D873F7DC18A579BF0034E178 /* TSNTeamTableViewCell.m in Sources */,
 				D873F74A18A45CAC0034E178 /* TSNAppDelegate.m in Sources */,
+				D873F7B618A498E00034E178 /* TSNNewsItemTableViewCell.m in Sources */,
+				D873F7FA18A81A620034E178 /* LeagueInfo+Picker.m in Sources */,
+				D873F7A918A488960034E178 /* UIWebView+AFNetworking.m in Sources */,
+				D873F7EB18A5A45B0034E178 /* TSNLeagueItem.m in Sources */,
+				D873F7A018A488960034E178 /* AFURLRequestSerialization.m in Sources */,
+				D873F79C18A488960034E178 /* AFHTTPSessionManager.m in Sources */,
+				D873F7C818A4A9350034E178 /* TSNNewsDetailView.m in Sources */,
+				D873F7B918A498FD0034E178 /* TSNNewsItem.m in Sources */,
+				D873F7E218A57FB90034E178 /* TSNDataItemProvider.m in Sources */,
+				D873F7D118A56F150034E178 /* SportInfo.m in Sources */,
+				D873F79D18A488960034E178 /* AFNetworkReachabilityManager.m in Sources */,
+				D873F7AD18A489710034E178 /* TSNEspnApiClient.m in Sources */,
+				D873F7A118A488960034E178 /* AFURLResponseSerialization.m in Sources */,
+				D873F7A218A488960034E178 /* AFURLSessionManager.m in Sources */,
+				D873F7CB18A4C9FF0034E178 /* TSNArticleViewController.m in Sources */,
+				D873F7E518A593D30034E178 /* TSNSportsItem.m in Sources */,
+				D873F7A318A488960034E178 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				D873F7F718A818FD0034E178 /* TeamInfo+Picker.m in Sources */,
 				D873F74618A45CAC0034E178 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +760,7 @@
 				D873F76418A45CAC0034E178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D873F76518A45CAC0034E178 /* Build configuration list for PBXNativeTarget "SportsNewsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,8 +769,22 @@
 				D873F76718A45CAC0034E178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D873F7CC18A56C860034E178 /* SportsNewsDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D873F7CD18A56C860034E178 /* SportsNewsDemo.xcdatamodel */,
+			);
+			currentVersion = D873F7CD18A56C860034E178 /* SportsNewsDemo.xcdatamodel */;
+			path = SportsNewsDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D873F72E18A45CAC0034E178 /* Project object */;
 }
