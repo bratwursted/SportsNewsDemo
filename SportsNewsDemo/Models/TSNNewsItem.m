@@ -21,7 +21,7 @@
 
 + (instancetype)newsItemWithData:(NSDictionary *)itemData
 {
-    TSNNewsItem *newsItem = [[TSNNewsItem alloc] init];
+    TSNNewsItem *newsItem = [[self alloc] init];
     newsItem.itemData = itemData;
     newsItem.dateFormatter = [[NSDateFormatter alloc] init];
     [newsItem.dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];

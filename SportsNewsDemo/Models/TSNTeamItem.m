@@ -20,7 +20,7 @@
 
 + (instancetype)teamItemWithData:(NSDictionary *)itemData
 {
-    TSNTeamItem *teamItem = [[TSNTeamItem alloc] init];
+    TSNTeamItem *teamItem = [[self alloc] init];
     teamItem.itemData = itemData;
     return teamItem;
 }

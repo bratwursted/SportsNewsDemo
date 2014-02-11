@@ -20,7 +20,7 @@
 
 + (instancetype)leagueItemWithData:(NSDictionary *)itemData
 {
-    TSNLeagueItem *leagueItem = [[TSNLeagueItem alloc] init];
+    TSNLeagueItem *leagueItem = [[self alloc] init];
     leagueItem.itemData = itemData;
     return leagueItem;
 }
